@@ -1,0 +1,65 @@
+.reverse-container {
+    background-color: #FF9B9B;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    margin-right: 10px;
+  }
+  
+  .reversed-text {
+    margin-top: 10px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+  }
+  
+  .resultreverse{
+    font-weight: lighter;
+  }
+
+
+  
+
+  .reverse-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #CBFFA9;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .reverse-button:hover {
+    background-color: #fff;
+    color: #CBFFA9;
+    border: 2px solid #CBFFA9;
+    box-shadow: 5px 5px 0px #CBFFA9;
+  }
+  
+  .reverse-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  

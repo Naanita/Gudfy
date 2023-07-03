@@ -1,0 +1,167 @@
+.container {
+    flex-direction: column;
+    text-align: center;
+    background-color: #D0F5BE;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+}
+.buttonList {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #98EECC;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .buttonList:hover {
+    background-color: #fff;
+    color: #98EECC;
+    border: 2px solid #98EECC;
+    box-shadow: 5px 5px 0px #98EECC;
+  }
+  
+  .buttonList:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+
+  .card-form {
+    --main-color: #323232;
+    padding: 20px;
+    background: #A7ECEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+  }
+
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .form input[type="text"],
+  .form textarea {
+    width: 100%;
+  }
+  
+  .form textarea {
+    resize: none;
+  }
+  
+  .form button {
+    width: 100%;
+  }
+  
+  .inputverse {
+    --input-focus: #FFFEC4;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #FFFEC4;
+    --main-color: #323232;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  .inputverse::placeholder {
+    color: var(--font-color-sub);
+    opacity: 0.8;
+  }
+  
+  .inputverse:focus {
+    border: 2px solid var(--input-focus);
+  }
+
+  .formbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #9AC5F4;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .formbutton:hover {
+    background-color: #fff;
+    color: #9AC5F4;
+    border: 2px solid #9AC5F4;
+    box-shadow: 5px 5px 0px #9AC5F4;
+  }
+  
+  .formbutton:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  .formpage{
+    background-color: #99DBF5;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
